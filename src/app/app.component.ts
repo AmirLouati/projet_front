@@ -14,7 +14,7 @@ export class AppComponent {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         // List of routes where the navbar should be hidden
-        const hideNavbarRoutes = ['/admindashboard']; // Update this to the route you want to hide the navbar
+        const hideNavbarRoutes = ['/admindashboard','/superadmin']; // Update this to the route you want to hide the navbar
         this.showNavbar = !hideNavbarRoutes.includes(event.urlAfterRedirects);
       }
     });

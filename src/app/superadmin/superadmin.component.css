@@ -1,34 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 
 .sidebar {
     position: fixed;
-
     height: 100vh;
     width: 50px;
     background-color: black;
     transition: width 0.8s;
 }
 
-.sidebar_items {
-    color: white;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
 
 .item {
     display: flex;
     width: 100%;
     padding: 1rem;
+    margin-top: 20px;
 }
-
-
 
 .nombres {
     margin-left: 20px;
@@ -42,7 +28,6 @@
 
 .sidebar:hover {
     width: 15rem;
-
 }
 
 .sidebar:hover .nombres {
@@ -53,7 +38,6 @@
     margin-left: 50px;
     min-height: 100vh;
     padding-bottom: 50px;
-
 }
 
 h1 {
@@ -67,27 +51,25 @@ p {
 .logout {
     margin-top: 220px;
     list-style: none;
-    color: white; /* Ensure the text is white */
+    color: white;
 }
-.logout:hover{
+
+.logout:hover {
     background: grey;
 }
 
-
 .logout .item a {
-    text-decoration: none; /* Remove underline from link */
-    color: white; /* Ensure the link inherits the text color */
+    text-decoration: none;
+    color: white;
 }
+
 @media only screen and (max-width: 600px) {
     body {
-
         background-color: lightblue;
     }
 
-
     .main {
         border: 1px solid blue;
-
     }
 
     .sidebar_items {
@@ -102,7 +84,6 @@ p {
 
     .sidebar:hover {
         width: 100%;
-
     }
 
     .sidebar:hover .nombres {
@@ -119,10 +100,8 @@ p {
 
     i {
         margin: auto;
-
     }
 }
-/**************************************body***********************************/
 
 .btn {
     padding: 5px 10px;
@@ -131,34 +110,33 @@ p {
     border-radius: 3px;
     font-size: 14px;
     cursor: pointer;
-  }
+}
 
-  .btn-accept {
+.btn-accept {
     background-color: #28a745;
     color: white;
-  }
+}
 
-  .btn-accept:hover {
+.btn-accept:hover {
     background-color: #218838;
-  }
+}
 
-  .btn-refuse {
+.btn-refuse {
     background-color: #dc3545;
     color: white;
-  }
+}
 
-  .btn-refuse:hover {
+.btn-refuse:hover {
     background-color: #c82333;
-  }
+}
 
-  /************table**************/
-  .table-container {
+.table-container {
     margin-left: 250px;
     padding: 20px;
 }
 
 .table {
-    margin-bottom: 200px; /* Adds 200px space between tables */
+    margin-bottom: 200px;
     width: 100%;
     border-collapse: collapse;
 }

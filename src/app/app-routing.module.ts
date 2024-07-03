@@ -11,7 +11,7 @@ import { LoanRequestComponent } from './loan-request/loan-request.component'; //
 import { CreditcardComponent } from './creditcard/creditcard.component';
 import { CreateuserComponent } from './createuser/createuser.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
-
+import { SuperadminComponent } from './superadmin/superadmin.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -26,6 +26,7 @@ const routes: Routes = [
   { path: 'loan-request', component: LoanRequestComponent },
   { path: 'creditcard', component: CreditcardComponent },
   { path: 'admindashboard', component: AdmindashboardComponent },
+  { path: 'superadmin', component: SuperadminComponent},
   { path: '**', redirectTo: '/home' } // Route de redirection par défaut
 ];
 

@@ -20,7 +20,7 @@ import { AdminlogComponent } from './adminlog/adminlog.component';
 import { CreditcardComponent } from './creditcard/creditcard.component';
 import { CreateuserComponent } from './createuser/createuser.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
-
+import { SuperadminComponent } from './superadmin/superadmin.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +36,8 @@ import { AdmindashboardComponent } from './admindashboard/admindashboard.compone
     CreditcardComponent,
     CreateuserComponent,
     CreateuserComponent,
-    AdmindashboardComponent
+    AdmindashboardComponent,
+    SuperadminComponent
   ],
   imports: [
     BrowserModule,
